@@ -1,0 +1,28 @@
+body {margin:0px; padding:0px; vertical-align:top; background:url(images/tall.jpg) repeat-x top #E8E8E8;}
+td {font-size:11px; font-family:Tahoma; color:#494949; line-height:14px; vertical-align:top;}
+a {border:none; text-decoration:underline; color:#435475;}
+a:hover {text-decoration:none;}
+form {margin:0px; padding:0px;}
+/****************************************************/
+.footertxt {color:#515151;}
+.footertxt2 {color:#30425C; font-weight:bold;}
+.footerlink {color:#515151;text-decoration:none;}
+.footerlink:hover{color:#515151;text-decoration:underline;}
+/****************************************************/
+.link1 {text-decoration:underline;color:#0297BB;font-size:10px;line-height:20px;font-weight:bold;}
+.link1:hover {text-decoration:none;color:#0297BB;}
+/****************************************************/
+ul {margin:0; padding:0; list-style:none}
+li {background: url(images/pimp2.gif) no-repeat  left; padding-left:17px; line-height:18px; font-size:11px;color:#435475;}
+li a {color:#435475; text-decoration:none;}
+li a:hover {text-decoration:underline;}
+
+.list1 li {background: url(images/pimp1.gif) no-repeat  left; padding-left:10px; line-height:13px; font-size:11px;color:#494949;}
+.list1 li a {color:#494949; text-decoration:underline;}
+.list1 li a:hover {text-decoration:none;}
+/****************************************************/
+.myform {width:158px; margin:0px; padding-left:3px; padding-right:0; padding-top:0; padding-bottom:0; height:19px; vertical-align:middle;font-size:11px;font-family:Tahoma;color:#464646;background:#ffffff; border:solid 1px #B6B6B6;}
+.myform2 {width:138px; margin:0px; padding-left:3px; padding-right:0; padding-top:0; padding-bottom:0; height:19px; vertical-align:middle;font-size:11px;font-family:Tahoma;color:#464646;background:#ffffff; border:solid 1px #B6B6B6;}
+/****************************************************/
+
+.txt1 {color:#B53300; font-weight:bold;}

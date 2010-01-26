@@ -1,0 +1,211 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+    <style type="text/css">
+        .style1
+        {
+            height: 54px;
+            width: 21%;
+        }
+        .style2
+        {
+            height: 54px;
+            width: 16%;
+        }
+    </style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="width:766px; height:100%;">
+  <tr>
+    <!-- begin of header -->
+    <td style="width:100%; height:230px;">
+      <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%;">
+        <tr>
+          <td style="width:39px; height:100%; background:url(images/h_pict3.gif) no-repeat right bottom;"></td>
+          <td style="width:263px; height:100%; background:url(images/h_back1.gif) no-repeat top;">
+            <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%;">
+              <tr>
+                <td style="width:100%; height:64;">
+                  <div style="margin-top:20px; margin-left:33px;"> <a href="index.html"><img src="images/h_b1.gif" alt="" border="0"></a><a href="index.html"><img src="images/h_b2.gif" alt="" border="0"></a><a href="index-6.html"><img src="images/h_b3.gif" alt="" border="0"></a><br>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="width:100%; height:100%; background:url(images/h_pict2.gif) no-repeat bottom;"> <img src="images/logo.gif" alt=""><br>
+                  <br style="line-height:31px;">
+                  <img src="images/h_pict1.gif" alt="" style="margin-left:31px;"><br>
+                  <br style="line-height:3px;">
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td style="width:464px; height:100%; background:url(images/h_back.jpg) no-repeat right top;"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:100%; height:54px; text-align:center; font-size:25;"> <img src="images/spacer.gif" alt="" width="24" height="1"><a href="index-1.html">
+    
+    <!-- Start tabs -->
+    <table>
+        <td style="width:20%; height:54px; text-align:center; vertical-align:middle; font-size:25;"><a href="index.aspx" title = "Home">Home</a></td>
+        <td style="text-align:center; vertical-align:middle; font-size:25;" class="style2"><a href="hosting.aspx" title = "Products">Hosting</a></td>
+        <td style="text-align:center; vertical-align:middle; font-size:25;" class="style1"><a href="ControlPanel.aspx" title = "Control Panel">Control Panel</a></td>
+        <td style="width:20%; height:54px; text-align:center; vertical-align:middle; font-size:25;"><a href="Downloads.aspx" title = "Downloads">Downloads</a></td>
+        <td style="width:20%; height:54px; text-align:center; vertical-align:middle; font-size:25;"><a href="Support.aspx" title = "Support">Support</a></td>
+                     
+                        
+    </table>
+    
+    <!-- End tabs -->
+
+    </td>
+  </tr>
+  <!-- end of header -->
+  <tr>
+    <!-- begin of body -->
+    <td style="width:100%; height:100%;">
+      <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%;">
+        <tr>
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+          <td style="width:39px; height:100%;"></td>
+          <td style="width:253px; height:100%;">
+            <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%;">
+              <tr>
+                <td style="width:100%; height:407px; background:url(images/b_tall4.jpg) repeat-y;">
+                  <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%; background:url(images/b_tall3.jpg) no-repeat top;">
+                    <tr>
+                      <td style="width:100%; height:100%; background:url(images/b_tall5.jpg) no-repeat bottom;">
+                        <div style="margin-top:37px; margin-left:21px; margin-right:25px;"> <img src="images/2b_tt1.gif" alt=""><br>
+                          <br style="line-height:14px;">
+                          <span class="txt1">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit</span><br>
+                          <br style="line-height:5px;">
+                          Ut enim ad minim veniam, quis nostrud tation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.<br>
+                          <br style="line-height:13px;">
+                          <span class="txt1">Excepteur sint occaecat cupidatat non proident in culpa qui officia </span><br>
+                          <br style="line-height:5px;">
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve.<br>
+                          <br style="line-height:12px;">
+                          <ul>
+                            <li><a href="#">Vestibulum ante ipsum primis</a></li>
+                            <li><a href="#">In faucibus orci luctus et</a></li>
+                            <li><a href="#">Ultrices posuere cubilia Curae</a></li>
+                            <li><a href="#">Suspendisse sollicitudin velit sed leo</a></li>
+                            <li><a href="#">Ut pharetra augue nec augue</a></li>
+                            <li><a href="#">Nam elit agna,endrerit sit amet</a></li>
+                          </ul>
+                          <br style="line-height:8px;">
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td style="width:100%; height:100%; background:url(images/f_back1.jpg) no-repeat top left;" class="footertxt2"><br style="line-height:10px;">
+                  <div style="margin-top:43px; margin-left:68px;"> <span style="font-size:10px;">Call Now: </span><br>
+                    1-800-123-4567<br>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td style="width:13px; height:100%;"></td>
+          <td style="width:427px; height:100%;">
+            <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%;">
+              <tr>
+                <td style="width:100%; height:448px;background:url(images/b_tall1.gif) no-repeat top #FFFFFF; ">
+                
+                 
+                
+                  <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%;">
+                    <tr>
+                      <td style="width:100%; height:100%; background:url(images/b_tall2.gif) no-repeat bottom;">
+                        <div style="margin-top:37px; margin-left:30px; margin-right:45px;"> <img src="images/2b_tt1.gif" alt=""><br>
+                          <br style="line-height:15px;">
+                          <a href="#">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan- tium doloremque laudantiumtotam rem aperiam eaque ipsa quae</a><br>
+                          <br style="line-height:3px;">
+                          Duis aute irure dolor in reprehenderit in vouptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve.
+                          vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.<br>
+                          <br style="line-height:13px;">
+                          <a href="#"><img src="images/2b_pict1.gif" alt="" border="0"></a><br>
+                        </div>
+                        <br style="line-height:24px;">
+                        <img src="images/2b_tt3.jpg" alt=""><br>
+                        <br style="line-height:28px;">
+                        <div style=" margin-left:30px; margin-right:45px;"> <img src="images/2b_foto1.jpg" alt="" align="left" style="margin-right:20px; margin-top:3px;"> <a href="#">Donec porta diam eu massauisque diam lorem interdum vitae dapibus ac sce</a><br>
+                          <br style="line-height:5px;">
+                          Nemo enim ipsam voluptatem quia volup- tas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.<br>
+                        </div>
+                        <br style="line-height:18px;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="margin-left:34px;">
+                          <tr>
+                            <td style="width:202px;">
+                              <ul>
+                                <li><a href="#">Vestibulum ante ipsum primis</a></li>
+                                <li><a href="#">In faucibus orci luctus et</a></li>
+                                <li><a href="#">Ultrices posuere cubilia Curae</a></li>
+                              </ul>
+                            </td>
+                            <td>
+                              <ul>
+                                <li><a href="#">Suspendisse sollicitudin veli</a></li>
+                                <li><a href="#">Ut pharetra augue  augue</a></li>
+                                <li><a href="#">Nam elit agna sit amet</a></li>
+                              </ul>
+                              <br style="line-height:10px;">
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  </asp:ContentPlaceHolder>
+
+                  
+                </td>
+              </tr>
+              <tr>
+                <td style="width:100%; height:100%;">
+                  <div style="margin-left:18px; margin-top:23px;" class="footertxt"> Copyright &copy; Web Hosting, 2006,  All Rights Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<a href="index-7.html" class="footerlink">Privacy Policy</a><br>
+                    <br style="line-height:10px;">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td style="width:34px; height:100%;"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- end of body -->
+</table>
+</body>
+</html>
+
+
+
+
+
+
+ 
+        
+        
