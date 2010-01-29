@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <td>
-    <form id="form1" runat="server">
+    <!-- <form id="form1" runat="server"> -->
         <table style="width:100%;">
             <tr>
                 <td colspan="3" style="height: 18px">Basic Package </td>
@@ -17,18 +17,19 @@
                         <li>10 Slot Package</li>
                     </ul>                   
                 </td> 
-                <td width= "50%">
+                <td style="width: 50%">
                     $4.00/Month
                     
                     <br />
                     <br />
                     
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="PNMLBEF33BD7S">
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+</form> 
+
 
 
                     
@@ -195,7 +196,7 @@
                 </td>
             </tr>
             </table>
-    </form>
+    <!-- </form> -->
     </td>
 </asp:Content>
 
