@@ -55,9 +55,6 @@ public partial class ControlPanel : System.Web.UI.Page
                 port = dr.GetString(1);
             }
 
-            
-
-
         }
         catch(Exception ex)
         {
@@ -81,7 +78,6 @@ public partial class ControlPanel : System.Web.UI.Page
             "echo (%time%) WARNING: srcds closed or crashed, restarting" + System.Environment.NewLine +
             "goto srcds";
             
-
         // execute command
         swProcess.Write(command);
     }
