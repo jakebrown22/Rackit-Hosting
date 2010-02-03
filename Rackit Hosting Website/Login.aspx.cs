@@ -44,7 +44,7 @@ public partial class Login : System.Web.UI.Page
             if (dr.HasRows)
             {
                 System.Web.Security.FormsAuthentication.SetAuthCookie(Login1.UserName, false);
-                Response.Redirect("ControlPanel.aspx");
+                Response.Redirect("index.aspx");
             }
         }
         catch (Exception ex)
