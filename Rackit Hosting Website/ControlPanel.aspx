@@ -51,7 +51,8 @@
                 <td style="width: 131px">
                 
                     <center>
-                        <asp:Button ID="btnReset" runat="server" Text="Reset Server" />
+                        <asp:Button ID="btnReset" runat="server" Text="Reset Server" 
+                            onclick="btnReset_Click" />
                     </center>
                 
                 </td>

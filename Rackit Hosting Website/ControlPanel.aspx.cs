@@ -17,4 +17,8 @@ public partial class ControlPanel : System.Web.UI.Page
     {
 
     }
+    protected void btnReset_Click(object sender, EventArgs e)
+    {
+
+    }
 }
