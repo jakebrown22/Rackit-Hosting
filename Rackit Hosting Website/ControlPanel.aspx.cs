@@ -81,4 +81,8 @@ public partial class ControlPanel : System.Web.UI.Page
         // execute command
         swProcess.Write(command);
     }
+    protected void btnReset_Click(object sender, EventArgs e)
+    {
+
+    }
 }
